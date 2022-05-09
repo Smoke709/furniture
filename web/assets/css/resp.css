@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1200px){
+    .burger{
+        display:  block;
+    }
+    .logo{
+        opacity:0;
+    }
+ .icons-call, .support, .cart-cus{
+        display: none;
+    }
+    .search, .shop-bag{
+        opacity: 0;
+    }
+    .site-branding{
+        flex-direction: column;
+    }
+    .site-branding div{
+        margin: 15px 0;
+    }
+    .nav-list{
+        flex-direction: column;
+        opacity: 0;
+    }
+    .nav-list li{
+        margin: 10px 0px;
+    }
+    .resp-nav{
+        opacity: 1;
+    }
+    .resp-nav-bar{
+        background-color: #ffcc33;
+        transition: all 1s ease-in-out;
+    }
+    .banner-section-container{
+        padding: 250px 0px 250px 0px;
+    }
+    .featured-img-col{
+        padding-right: 0px;
+    }
+    .featured-contents{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .footer-contents{
+        margin: 20px 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .column{
+        margin-bottom: 15px;
+    }
+    .column:last-child{
+        padding-right: 11px;
+    }
+    .products-column{
+        margin-bottom: 15px;
+    }
+    .footer-contents{
+        margin: 20px 0;
+    }
+    .footer-contents:last-child{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 576px){
+    .bann-btn{
+        margin: 8px 0;
+    }
+}
